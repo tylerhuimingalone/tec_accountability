@@ -1,25 +1,33 @@
 /* Styles go here */
 body {
-  background-color: green;
+  background-color: #978470;
   margin: 0;
   padding: 0;
 }
 
 nav {
   width: 100%;
-  background-color: red;
+  background-color: #8B050D;
   position: sticky;
 }
 
-nav ul {
+.navlist {
   list-style-type: none;
   margin: 0;
   padding-block: 1em;
 }
 
-nav ul li {
+.navlist li {
   display: inline-block;
   margin-right: 2em;
+}
+
+.navlink {
+  color: lightblue;
+}
+
+.navlink:hover {
+  filter: brightness(0.6);
 }
 
 main {
@@ -33,14 +41,18 @@ main {
 }
 
 .page-title {
-  margin-bottom: -7px;
+  margin: auto;
+  margin-bottom: 10px;
   color: black;
-  padding-left: 1em;
 }
 
 .statement-video {
   width: 80%;
   aspect-ratio: 16 / 9;
   margin: auto;
-  background-color: pink;
+}
+
+.statement-video video {
+  height: 100%;
+  width: 100%;
 }
