@@ -1,0 +1,46 @@
+/* Styles go here */
+body {
+  background-color: green;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+  background-color: red;
+  position: sticky;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-block: 1em;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+main {
+  padding: 3em 10%;
+}
+
+.content {
+  border-radius: 1em;
+  background-color: white;
+  padding: 1em;
+}
+
+.page-title {
+  margin-bottom: -7px;
+  color: black;
+  padding-left: 1em;
+}
+
+.statement-video {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  margin: auto;
+  background-color: pink;
+}
