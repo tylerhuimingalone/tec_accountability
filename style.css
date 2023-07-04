@@ -6,10 +6,11 @@ body {
   padding: 0;
 }
 
-nav {
-  width: 100%;
-  background-color: #8B050D;
+nav.navbar {
   position: sticky;
+  top: 0px;
+  z-index: 1;
+  border-bottom: 1px solid black;
 }
 
 .navlist {
@@ -72,10 +73,6 @@ main {
 
 /* START Timeline page styles */
 
-.timeline {
-  /*border-left: 2px solid #8B050D;*/
-}
-
 .event {
   padding: 10px 0px 10px 0px;
   border-radius: 0px 5px 5px 0px;
@@ -111,26 +108,33 @@ main {
 /* END Timeline page styles */
 
 /* START FAQ page styles */
-.faq {
-  margin-inline: -1em;
-  padding: 1em;
+h2 {
+  font-family: Arial, Verdana;
+  font-weight: 800;
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }
-
-.faq:nth-child(even) {
-  background-color: antiquewhite;
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  padding: 0;
 }
-
-hr {
-  /*border: 2px solid #8B050D;*/
-  margin: 2px;
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-style: italic;
+  font-size: 1.5rem;
 }
-
-.question {
-  margin: 0;
+.accordion-section .panel-default .panel-title a:after {
+  font-style: normal;
+  font-size: 2rem;
+  content: "-";
+  float: right;
+  margin-top: -12px;
 }
-
-.answer {
-  margin: 0;
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "+";
+}
+.accordion-section .panel-default .panel-body {
+  font-size: 1.2rem;
 }
 
 /* END FAQ page styles */
@@ -294,6 +298,7 @@ body{
 }
 
 .main-timeline .timeline-content {
+  height: 170px;
   width: 50%;
   padding: 20px 0 20px 50px;
   float: right

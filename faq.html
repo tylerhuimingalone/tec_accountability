@@ -1,89 +1,346 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Episcopal Accountability</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Episcopal Accountability</title>
   </head>
   <body>
-    <nav>
-      <ul class="navlist">
-        <li><a class="navlink" href="./index.html">Home</a></li>
-        <li><a class="navlink" href="./documents.html">Documents</a></li>
-        <li><a class="navlink" href="./timeline.html">Timeline</a></li>
-        <li><a class="navlink" href="./faq.html">FAQ</a></li>
-      </ul>
-    </nav>
-    <main>
-      <h1 class="site-title">Episcopal Accountability</h1>
-      <div class="content">
-        <h2 class="page-title">FAQs</h2>
-
-        <div class="faq">
-          <h3 class="question">Sample Question Here</h3>
-          <hr/>
-          <p class="answer">
-            Sample answer here. This might go on a bit longer so I should write some more.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris massa quam, venenatis eget nunc et, viverra commodo augue.
-            Aliquam sit amet sem auctor, ultricies risus eget, congue nisl.
-            Donec mattis condimentum dolor, id efficitur elit suscipit quis.
-            Nullam fermentum nibh at metus ultrices congue.
-            Fusce arcu nibh, ornare vitae scelerisque vel, iaculis ac lectus. Nunc ac lacinia ante, eu consequat urna.
-            Fusce molestie odio placerat malesuada gravida.
-          </p>
-        </div>
-
-        <div class="faq">
-          <h3 class="question">Sample Question Here</h3>
-          <hr/>
-          <p class="answer">
-            Sample answer here. This might go on a bit longer so I should write some more.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris massa quam, venenatis eget nunc et, viverra commodo augue.
-            Aliquam sit amet sem auctor, ultricies risus eget, congue nisl.
-            Donec mattis condimentum dolor, id efficitur elit suscipit quis.
-            Nullam fermentum nibh at metus ultrices congue.
-            Fusce arcu nibh, ornare vitae scelerisque vel, iaculis ac lectus. Nunc ac lacinia ante, eu consequat urna.
-            Fusce molestie odio placerat malesuada gravida.
-          </p>
-        </div>
-
-        <div class="faq">
-          <h3 class="question">Sample Question Here</h3>
-          <hr/>
-          <p class="answer">
-            Sample answer here. This might go on a bit longer so I should write some more.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris massa quam, venenatis eget nunc et, viverra commodo augue.
-            Aliquam sit amet sem auctor, ultricies risus eget, congue nisl.
-            Donec mattis condimentum dolor, id efficitur elit suscipit quis.
-            Nullam fermentum nibh at metus ultrices congue.
-            Fusce arcu nibh, ornare vitae scelerisque vel, iaculis ac lectus. Nunc ac lacinia ante, eu consequat urna.
-            Fusce molestie odio placerat malesuada gravida.
-          </p>
-        </div>
-
-        <div class="faq">
-          <h3 class="question">Sample Question Here</h3>
-          <hr/>
-          <p class="answer">
-            Sample answer here. This might go on a bit longer so I should write some more.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Mauris massa quam, venenatis eget nunc et, viverra commodo augue.
-            Aliquam sit amet sem auctor, ultricies risus eget, congue nisl.
-            Donec mattis condimentum dolor, id efficitur elit suscipit quis.
-            Nullam fermentum nibh at metus ultrices congue.
-            Fusce arcu nibh, ornare vitae scelerisque vel, iaculis ac lectus. Nunc ac lacinia ante, eu consequat urna.
-            Fusce molestie odio placerat malesuada gravida.
-          </p>
-        </div>
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Episcopal Accountability</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav"> 
+          <li class="nav-item">
+            <a class="nav-link" href="./documents.html">Documents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./timeline.html">Timeline</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faq.html">FAQ</a>
+          </li>
+        </ul>
       </div>
-    </main>
-	<script src="index.js"></script>
+    </nav>
+
+    <!-- Body -->
+    <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+      <div class="container">
+      
+        <h2>Frequently Asked Questions </h2>
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading0">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse0" aria-expanded="true" aria-controls="collapse0">
+                Who are we?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading0">
+              <div class="panel-body px-3 mb-4">
+                <p>We are Nivedhan Singh (age 30) and Eklan Singh (age 22).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading1">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                  How were we abused?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+              <div class="panel-body px-3 mb-4">
+                <p>
+                  Many people know Prince Singh as a highly charismatic preacher and inspiring leader in the church.
+                  Those much closer to him experience him as a practiced manipulator and a functioning alcoholic who
+                  takes his anger out on his family, all while being repeatedly protected by and promoted in the Episcopal Church.
+                  In detailed public letters, we have disclosed the physical and emotional abuse experienced by our mother,
+                  Jebaroja Singh, and us at the hands of our father. That abuse includes:
+                </p>
+                <ul>
+                  <li>Physical, drunken battery of Nivedhan on a regular basis</li>
+                  <li>Once waving a kitchen knife at our mother while screaming at her</li>
+                  <li>Throwing objects at us constantly</li>
+                  <li>Screaming at us on a daily basis</li>
+                  <li>Using his financial support and authority as bishop to silence and threaten us</li>
+                </ul>
+                <p>You can read our previous letters here(ADD LINK) and here(ADD LINK).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading2">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                  Why have you gone public now?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+              <div class="panel-body px-3 mb-4">
+                <p>
+                  Why? We believe that our father’s role in the church and his upcoming remarriage puts him in a position to harm others.
+                  We have yet to see] evidence of repentance indicating that he has dealt with the root issues and character flaws that generated decades of abuse.
+                  Saying “I’m sorry” while only changing on the surface is not repentance.
+                </p>
+                <p>
+                  Why now? Now that we are adults with experience in the world, we realize that the circumstances of our childhood were violent and unusual.
+                  Unfortunately, children of abusive parents often have no choice but to normalize their experiences to survive.
+                </p>
+                <p>
+                  That normalization began to unravel for us when our parents divorced. People get divorced all the time, even priests and bishops,
+                  but our parents’ divorce process—and especially the public perception of it through our father’s image-management narratives—became tainted
+                  almost immediately by our father’s unchecked authority in the church. With the help of official church communication channels,
+                  he was able to publish a face-saving, image-managing narrative about how the divorce came to pass, not only violating our privacy
+                  but convincing others—including Presiding Bishop Curry—that we should be abandoned by the church in the name of “respecting our privacy.”
+                </p>
+                <p>
+                  Once we disclosed the domestic violence directly to Presiding Bishop Curry and detailed our father’s public facade towards us
+                  and our mother regarding the divorce, the Presiding Bishop’s office responded with a substandard process that was not in keeping with
+                  Title IV of the Canons of the Episcopal Church. Rather than recognizing that allegations of decades worth of alcohol fueled abuse and
+                  untruthful statements rise to the level of Title IV offenses if they are true and launching an investigation, we were offered help
+                  in a “therapeutic setting” with a non-licensed “counselor” who happened to be a (non-TEC) clergyperson and close personal friend of our father.
+                  While this person claimed to have been appointed by the Presiding Bishop, we received no communication from the office of the Presiding Bishop,
+                  Bishop Todd Ousley, other members of the Presiding Bishop’s staff making this assertion or offering us other options.
+                  After one failed session, action halted other than one Zoom call between my mother and Presiding Bishop Curry in February 2023
+                  in which she shared some of her concerns and offered recommendations for how to care for the families of Bishops in the future.
+                </p>
+                <p>
+                  After going public, six months of inaction was transformed into action in only six days. That’s why we came forward publicly now.
+                </p>
+                <p>
+                  You can read more about this on our narrative timeline (INSERT LINK HERE).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading3">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Hasn’t Prince Singh called for an investigation himself?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+              <div class="panel-body px-3 mb-4">
+                <p>
+                  Yes; in a June 19, 2023, letter to the Episcopal Dioceses of Eastern and Western Michigan, our father announced that he had called for
+                  a disciplinary investigation into himself, under the Episcopal Church’s Title IV procedures. However, anyone reading the letter should
+                  be left with substantial doubt about the independence and validity of that investigation. The letter also demonstrates that our father
+                  has not finished emotionally abusing us even as he claims to be seeking therapeutic help for his problems.
+                </p>
+                <p>
+                  There are several problems with this letter that we must highlight:
+                </p>
+                <ul class="list-unstyled pl-4">
+                  <li class="mb-2">
+                    <strong>
+                      Our father positions himself as a valid source of information about this process and its progress:
+                      “I will continue to be in conversation with the Presiding Bishop and our diocesan leaders to keep
+                      them apprised of this process and to check in along the way.”
+                    </strong>
+                  </li>
+                  <li class="mb-4">
+                    It is inappropriate for someone under investigation of domestic abuse to be responsible for providing updates to anyone about the
+                    progress of that investigation. Our father is, in fact, the last person who should be in conversation with Presiding Bishop Curry,
+                    diocesan leadership, and others about the process. That must be the charge of an independent investigator.
+                  </li>
+                  <li class="mb-2">
+                    <strong>
+                      Our father minimizes our allegations as that of a “family conflict” related to
+                      “the lack of privacy afforded to a family when one parent is a bishop.”
+                    </strong>
+                  </li>
+                  <li class="mb-4">
+                    Domestic abuse is not only a violation of ordination vows and the baptismal covenant, it is a crime and a sin.
+                    We have not accused our father of being a bishop who struggled to parent us due to the circumstances of his job.
+                    We have disclosed that he physically hit and verbally abused us throughout our childhoods.
+                  </li>
+                  <li class="mb-2">
+                    <strong>
+                      Our father publicly discloses details related to our mental and physical health as a means of speaking for us:
+                      “My older son was willing to do one therapy session before requesting to discontinue due to his tinnitus.
+                      My younger son said he was not ready to do this work.”
+                    </strong>
+                  </li>
+                  <li class="mb-4">
+                    It is inappropriate for anyone to discuss the mental and physical health of their family members in a public venue without consent.
+                    In this case, our father did so as a bishop communicating on a church platform as a means of defending himself against his victims.
+                    We gave him no permission to disclose private details about our health to anyone, let alone a large public audience.
+                  </li>
+                  <li class="mb-2">
+                    <strong>
+                      He describes our allegations as “serious” but then trivializes them by announcing his plans to take time off in response:
+                      “The Presiding Bishop’s Office has not called for a suspension or restriction on ministry.
+                      I will, however, take a week’s break to do the clinical evaluation, and will go on a reflective retreat during the week of July 4th.”
+                    </strong>
+                  </li>
+                  <li class="mb-4">
+                    It is unclear to us how a week in clinical evaluation and another week in “reflective retreat” is an appropriate response to allegations
+                    of physical and emotional abuse. Presiding Bishop Curry’s lack of action should not be viewed by the church as an indication of our
+                    father’s innocence so much as a symptom of institutional incompetence, but our father nonetheless uses this fact to shield himself from
+                    what would have been appropriate: an immediate suspension of his ministry while an independent investigator works to determine if our
+                    claims are factual. Even if our allegations were untrue—and they are true—the seriousness of them warrants suspension and investigation.
+                  </li>
+                </ul>
+                <p>You can read our previous letters here(ADD LINK) and here(ADD LINK).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading4">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                  Shouldn’t we trust the process?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+              <div class="panel-body px-3 mb-4">
+                <p>
+                  We are moving forward with the Title IV complaint process and encourage others to do so.
+                  However, if the June 19 letter(ADD LINK HERE) is any indication, our trust should be limited.
+                  This letter was awful for us. After publicly identifying ourselves as survivors of our father’s abuse,
+                  the Dioceses of Eastern and Western Michigan’s leaders (and, most likely, lawyers) deemed it appropriate
+                  to come out in full support of our abuser, lending diocesan resources to his response.
+                  In our view, those leaders are now complicit in our abuse—what we experienced in the past, as well as the
+                  retraumatization and further harm from the response of leadership to our disclosures of abuse and
+                  the farcical process that compelled us to take public action.
+                </p>
+                <p>
+                  Likewise, Presiding Bishop Curry is also responsible for actively mishandling our abuse disclosures by
+                  failing to follow the guidelines of the Title IV canons. Curry has known full well of our suffering for
+                  months and has allowed our father undue oversight of the church’s response. Curry has upheld his full support
+                  for my father’s recent promotion, increased salary, and his recent engagement to be remarried. Only now—after
+                  the release of our letters, including the publication of a letter to Curry urging him to take action—has a
+                  Title IV investigation of Prince Singh's abusive history actually been launched.
+                </p>
+                <p>
+                  These facts are not the hallmarks of an institution that is prepared to run a thorough and independent
+                  investigation of our claims. They suggest concern for optics and status rather than for survivors.
+                  They confirm that this is image management, and not a legitimate investigative process.
+                  So far, we have seen no evidence to the contrary. We see an institution refusing to treat an accused abuser as just that:
+                  someone unworthy of trust until the truth has been clearly established.
+                </p>
+                <p>
+                  Read the letters closely, not as an Episcopalian but as someone scrutinizing a potential abuser.
+                  You can see bold efforts to misdirect your attention around this remarriage. You can see manipulative attempts to
+                  prey on your empathy, citing privacy and embarrassment. Even worse, consider the attempt to dismiss the courage it
+                  took for us to finally speak out with reductive statements like “divorce is messy.” This is a blatant attempt to further
+                  silence us, which in turn will silence other domestic abuse survivors. Those who speak out about abuse within the Episcopal
+                  Church will face the narrative wrath of God.
+                </p>
+                <p>
+                  We are not bishops. We do not have a team of lawyers and the full support of a centuries-old institution—or an Episcopal
+                  Church-funded MailChimp email platform to hit hundreds of thousands of inboxes with the press of a button.
+                  But we still have a voice. The Episcopal Church has chosen the side of the abuser, but we still have a voice.
+                  The appropriate time to call for a serious investigation into a bishop is when you learn from multiple adult
+                  survivors that this bishop has a prolonged pattern of abuse—not six months later, after a compromised sham of a mediation process,
+                  biased unlicensed “counseling,” and after details get posted on Facebook. This has caused us, as survivors,
+                  to lose all trust with the church’s process and to see public calls for accountability as the only way forward.
+                </p>
+                <p>
+                  We cannot trust the process. But we still have a voice.
+                </p>            
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+
+        <!-- Begin FAQ section -->
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading mb-3" role="tab" id="heading5">
+              <h3 class="panel-title">
+                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                  How can I help?
+                </a>
+              </h3>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+              <div class="panel-body px-3 mb-4">
+                <p>
+                  You can start by considering our letters and, we hope, believing us. We seek to bring light to abuse
+                  we experienced in the hopes that it will help others inside and outside of the church, and that the church
+                  will take action to ensure our father cannot harm others while wearing a collar.
+                </p>
+                <p>
+                  You can help by not giving in to a narrative that would paint us as petulant boys afraid of our father’s new
+                  relationship and naïve to the nature of divorce—precisely what our father attempted to do in a video response
+                  on June 16, 2023. We are adults of 30 and 22 years. We do not speak from naivety. We speak the truth.
+                </p>
+                <p>
+                  You can help by joining in our call for accountability. We have both decided to make the difficult step of
+                  seeking accountability as we now have enough distance from our father that we can safely hold him accountable
+                  without destroying ourselves. We believe that he is unfit for his office and that the same character traits
+                  that led him to abuse his power at home will also bring destruction in his capacity as bishop and to his new family.
+                  The behavioral patterns he manifested consistently in our lives do not just go away with surface displays of
+                  “going to therapy” or “saying sorry” that fail to address the roots of these pathological behaviors.
+                </p>
+                <p>
+                  We openly ask Presiding Bishop Curry: What level of alcohol-fueled domestic abuse is acceptable in the House of Bishops?
+                  Precisely how much hitting and screaming by a Bishop does it take to prompt an investigation instead of a therapeutic
+                  process led by an abuser’s friend? And are clergy families of color not entitled to a bare minimum of institutional
+                  accountability because we are held to lower moral standards?
+                </p>
+                <p>
+                  And we ask the same of you. Is this acceptable in your church?
+                </p>
+                <p>
+                  It is our mission to call for Provisional Bishop Prince Singh and Presiding Bishop Michael Curry to resign for this gross
+                  negligence and victim blaming, and to protect current and future domestic violence survivors from forced silencing and
+                  retraumatization by the Episcopal Church. Our case has been mishandled. It’s time for that to change, and for justice to emerge.
+                </p>
+                <p>
+                  Thank you for hearing our stories. Diligent documentation can be found here(ADD LINK HERE).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End FAQ section -->
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
