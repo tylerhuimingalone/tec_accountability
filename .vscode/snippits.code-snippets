@@ -1,0 +1,33 @@
+{
+	// Place your tec_accountability workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+
+	"Timeline Entry": {
+		"scope": "html",
+		"prefix": "timeline",
+		"body": [
+			"\r\n        <!-- start experience section-->\r\n        <div class=\"timeline\">\r\n          <div class=\"icon\"><\/div>\r\n          <div class=\"date-content\">\r\n            <div class=\"date-outer\">\r\n              <span class=\"date\">\r\n                <span class=\"month\"><\/span>\r\n                <span class=\"year\"><\/span>\r\n              <\/span>\r\n            <\/div>\r\n          <\/div>\r\n          <div class=\"timeline-content\">\r\n            <h5 class=\"title\"><\/h5>\r\n            <p class=\"description\">\r\n            <\/p>\r\n            <button id=\"open-modal6\" type=\"button\" class=\"button modal-button mt-2\">Read More<\/button>\r\n            <dialog id=\"modal6\">\r\n              <div id=\"inner-modal6\" class=\"inner-modal p-4\">\r\n                <div class=\"d-flex justify-content-between mb-3\">\r\n                  <h5 class=\"title m-0 modal-date\"><\/h5>\r\n                  <button type=\"button\" class=\"button modal-button close-modal6 float-right\">Close<\/button>\r\n                <\/div>\r\n                <h5 class=\"title\"><\/h5>\r\n                <div class=\"pt-2 pb-2\">\r\n                  <p>\r\n                  <\/p>\r\n                <\/div>\r\n                <button type=\"button\" class=\"button modal-button close-modal6 mb-2\">Close<\/button>\r\n              <\/div>\r\n            <\/dialog>\r\n          <\/div>\r\n        <\/div>\r\n        <!-- end experience section-->"
+		],
+		"description": "A custom html snippit for a timeline event including a popout modal"
+	},
+	"Timeline JS": {
+		"scope": "javascript",
+		"prefix": "timeline-js",
+		"body": "\/\/ start modal js section\r\nconst open7 = document.querySelector(\"#open-modal7\");\r\nconst modal7 = document.querySelector(\"#modal7\");\r\nconst close7 = document.querySelectorAll(\".close-modal7\");\r\nconst innerModal7 = document.querySelector(\"#inner-modal7\");\r\n\r\nopen7.addEventListener(\"click\", () => {\r\n  modal7.showModal();\r\n});\r\nmodal7.addEventListener('click', (event) => {\r\n  if (!innerModal7.contains(event.target)) {\r\n      modal7.close();\r\n  }\r\n});\r\nclose7.forEach((element) => {\r\n  element.addEventListener(\"click\", () => {\r\n    modal7.close();\r\n  });\r\n});\r\n\/\/ end modal js section",
+		"description": "A set of JS functions to control a modal"
+	}
+}
