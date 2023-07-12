@@ -24,6 +24,14 @@
 		],
 		"description": "A custom html snippit for a timeline event including a popout modal"
 	},
+	"Quote": {
+		"scope": "html",
+		"prefix": "quote",
+		"body": [
+			"<div class=\"quote-block\">\r\n\t<blockquote class=\"mr-3 ml-3\">\r\n\t<\/blockquote>\r\n\t<p class=\"text-right font-italic\"><\/p>\r\n<\/div>"
+		],
+		"description": "a custom snippit for a quote"
+	},
 	"Timeline JS": {
 		"scope": "javascript",
 		"prefix": "timeline-js",
