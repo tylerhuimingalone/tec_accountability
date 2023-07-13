@@ -622,7 +622,7 @@ body{
   .mobile-only dialog {
     width: 95%;
     margin: auto;
-    padding: 10px;
+    padding: 50px 10px;
     text-align: left;
   }
 
