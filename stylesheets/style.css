@@ -85,7 +85,7 @@ a:hover {
   background-color: var(--white);
   color: var(--primary-color);
   border-radius: 5px;
-  border: none;
+  border: 1px solid var(--primary-color);
 }
 
 .white-button:focus {
@@ -95,6 +95,7 @@ a:hover {
 dialog .white-button {
   width: fit-content;
   padding: 0;
+  border: none;
 }
 
 .letter .white-button img {
@@ -615,6 +616,11 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
+  .signature {
+    width: 100%;
+    height: auto;
+  }
+
   .mobile-only {
     display: unset;
   }
