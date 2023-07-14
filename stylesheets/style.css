@@ -358,7 +358,8 @@ audio {
 /* END Open Letter page styles */
 
 /* START FAQ page styles */
-.accordion-section {
+.accordion-section,
+.join-us {
   min-height: calc(100vh - 300px);
 }
 
