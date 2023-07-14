@@ -358,7 +358,11 @@ audio {
 /* END Open Letter page styles */
 
 /* START FAQ page styles */
-h2 {
+.accordion-section {
+  min-height: calc(100vh - 300px);
+}
+
+.accordion-section h2 {
   font-size: 2.5rem;
   text-transform: uppercase;
 }
@@ -370,19 +374,30 @@ h2 {
   display: block;
   font-style: italic;
   font-size: 1.5rem;
+  color: var(--gray);
+  background-color: var(--primary-color);
+  padding: 10px;
+}
+.accordion-section .panel-default .panel-title a.collapsed {
+  background-color: var(--gray);
+  color: var(--primary-color);
 }
 .accordion-section .panel-default .panel-title a:after {
   font-style: normal;
   font-size: 2rem;
-  content: "-";
+  content: url(../images/arrow-up.svg);
   float: right;
-  margin-top: -12px;
+  margin-top: -8px;
 }
 .accordion-section .panel-default .panel-title a.collapsed:after {
-  content: "+";
+  content: url(../images/arrow-down.svg);
 }
 .accordion-section .panel-default .panel-body {
   font-size: 1.2rem;
+}
+
+.panel-title {
+  margin-bottom: 0;
 }
 
 /* END FAQ page styles */
