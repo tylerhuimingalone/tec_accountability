@@ -2,13 +2,15 @@
 // START modal js controls
 
 // start modal js section
-const open0 = document.querySelector("#open-modal0");
+const open0 = document.querySelectorAll(".open-modal0");
 const modal0 = document.querySelector("#modal0");
 const close0 = document.querySelectorAll(".close-modal0");
 const innerModal0 = document.querySelector("#inner-modal0");
 
-open0.addEventListener("click", () => {
-  modal0.showModal();
+open0.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal0.showModal();
+  });
 });
 modal0.addEventListener('click', (event) => {
   if (!innerModal0.contains(event.target)) {
@@ -23,13 +25,15 @@ close0.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open1 = document.querySelector("#open-modal1");
+const open1 = document.querySelectorAll(".open-modal1");
 const modal1 = document.querySelector("#modal1");
 const close1 = document.querySelectorAll(".close-modal1");
 const innerModal1 = document.querySelector("#inner-modal1");
 
-open1.addEventListener("click", () => {
-  modal1.showModal();
+open1.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal1.showModal();
+  });
 });
 modal1.addEventListener('click', (event) => {
   if (!innerModal1.contains(event.target)) {
@@ -44,13 +48,15 @@ close1.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open2 = document.querySelector("#open-modal2");
+const open2 = document.querySelectorAll(".open-modal2");
 const modal2 = document.querySelector("#modal2");
 const close2 = document.querySelectorAll(".close-modal2");
 const innerModal2 = document.querySelector("#inner-modal2");
 
-open2.addEventListener("click", () => {
-  modal2.showModal();
+open2.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal2.showModal();
+  });
 });
 modal2.addEventListener('click', (event) => {
   if (!innerModal2.contains(event.target)) {
@@ -65,13 +71,15 @@ close2.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open3 = document.querySelector("#open-modal3");
+const open3 = document.querySelectorAll(".open-modal3");
 const modal3 = document.querySelector("#modal3");
 const close3 = document.querySelectorAll(".close-modal3");
 const innerModal3 = document.querySelector("#inner-modal3");
 
-open3.addEventListener("click", () => {
-  modal3.showModal();
+open3.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal3.showModal();
+  });
 });
 modal3.addEventListener('click', (event) => {
   if (!innerModal3.contains(event.target)) {
@@ -86,13 +94,15 @@ close3.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open4 = document.querySelector("#open-modal4");
+const open4 = document.querySelectorAll(".open-modal4");
 const modal4 = document.querySelector("#modal4");
 const close4 = document.querySelectorAll(".close-modal4");
 const innerModal4 = document.querySelector("#inner-modal4");
 
-open4.addEventListener("click", () => {
-  modal4.showModal();
+open4.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal4.showModal();
+  });
 });
 modal4.addEventListener('click', (event) => {
   if (!innerModal4.contains(event.target)) {
@@ -107,13 +117,15 @@ close4.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open5 = document.querySelector("#open-modal5");
+const open5 = document.querySelectorAll(".open-modal5");
 const modal5 = document.querySelector("#modal5");
 const close5 = document.querySelectorAll(".close-modal5");
 const innerModal5 = document.querySelector("#inner-modal5");
 
-open5.addEventListener("click", () => {
-  modal5.showModal();
+open5.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal5.showModal();
+  });
 });
 modal5.addEventListener('click', (event) => {
   if (!innerModal5.contains(event.target)) {
@@ -128,13 +140,15 @@ close5.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open6 = document.querySelector("#open-modal6");
+const open6 = document.querySelectorAll(".open-modal6");
 const modal6 = document.querySelector("#modal6");
 const close6 = document.querySelectorAll(".close-modal6");
 const innerModal6 = document.querySelector("#inner-modal6");
 
-open6.addEventListener("click", () => {
-  modal6.showModal();
+open6.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal6.showModal();
+  });
 });
 modal6.addEventListener('click', (event) => {
   if (!innerModal6.contains(event.target)) {
@@ -149,13 +163,15 @@ close6.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open7 = document.querySelector("#open-modal7");
+const open7 = document.querySelectorAll(".open-modal7");
 const modal7 = document.querySelector("#modal7");
 const close7 = document.querySelectorAll(".close-modal7");
 const innerModal7 = document.querySelector("#inner-modal7");
 
-open7.addEventListener("click", () => {
-  modal7.showModal();
+open7.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal7.showModal();
+  });
 });
 modal7.addEventListener('click', (event) => {
   if (!innerModal7.contains(event.target)) {
@@ -170,13 +186,15 @@ close7.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open8 = document.querySelector("#open-modal8");
+const open8 = document.querySelectorAll(".open-modal8");
 const modal8 = document.querySelector("#modal8");
 const close8 = document.querySelectorAll(".close-modal8");
 const innerModal8 = document.querySelector("#inner-modal8");
 
-open8.addEventListener("click", () => {
-  modal8.showModal();
+open8.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal8.showModal();
+  });
 });
 modal8.addEventListener('click', (event) => {
   if (!innerModal8.contains(event.target)) {
@@ -191,13 +209,15 @@ close8.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open9 = document.querySelector("#open-modal9");
+const open9 = document.querySelectorAll(".open-modal9");
 const modal9 = document.querySelector("#modal9");
 const close9 = document.querySelectorAll(".close-modal9");
 const innerModal9 = document.querySelector("#inner-modal9");
 
-open9.addEventListener("click", () => {
-  modal9.showModal();
+open9.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal9.showModal();
+  });
 });
 modal9.addEventListener('click', (event) => {
   if (!innerModal9.contains(event.target)) {
@@ -212,13 +232,15 @@ close9.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open10 = document.querySelector("#open-modal10");
+const open10 = document.querySelectorAll(".open-modal10");
 const modal10 = document.querySelector("#modal10");
 const close10 = document.querySelectorAll(".close-modal10");
 const innerModal10 = document.querySelector("#inner-modal10");
 
-open10.addEventListener("click", () => {
-  modal10.showModal();
+open10.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal10.showModal();
+  });
 });
 modal10.addEventListener('click', (event) => {
   if (!innerModal10.contains(event.target)) {
@@ -233,13 +255,15 @@ close10.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open11 = document.querySelector("#open-modal11");
+const open11 = document.querySelectorAll(".open-modal11");
 const modal11 = document.querySelector("#modal11");
 const close11 = document.querySelectorAll(".close-modal11");
 const innerModal11 = document.querySelector("#inner-modal11");
 
-open11.addEventListener("click", () => {
-  modal11.showModal();
+open11.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal11.showModal();
+  });
 });
 modal11.addEventListener('click', (event) => {
   if (!innerModal11.contains(event.target)) {
@@ -254,13 +278,15 @@ close11.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open12 = document.querySelector("#open-modal12");
+const open12 = document.querySelectorAll(".open-modal12");
 const modal12 = document.querySelector("#modal12");
 const close12 = document.querySelectorAll(".close-modal12");
 const innerModal12 = document.querySelector("#inner-modal12");
 
-open12.addEventListener("click", () => {
-  modal12.showModal();
+open12.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal12.showModal();
+  });
 });
 modal12.addEventListener('click', (event) => {
   if (!innerModal12.contains(event.target)) {
@@ -275,13 +301,15 @@ close12.forEach((element) => {
 // end modal js section
 
 // // start modal js section
-// const open13 = document.querySelector("#open-modal13");
+// const open13 = document.querySelectorAll(".open-modal13");
 // const modal13 = document.querySelector("#modal13");
 // const close13 = document.querySelectorAll(".close-modal13");
 // const innerModal13 = document.querySelector("#inner-modal13");
 
-// open13.addEventListener("click", () => {
-//   modal13.showModal();
+// open13.forEach((element) => {
+//   element.addEventListener("click", () => {
+//     modal13.showModal();
+//   });
 // });
 // modal13.addEventListener('click', (event) => {
 //   if (!innerModal13.contains(event.target)) {
@@ -296,13 +324,15 @@ close12.forEach((element) => {
 // // end modal js section
 
 // // start modal js section
-// const open14 = document.querySelector("#open-modal14");
+// const open14 = document.querySelectorAll(".open-modal14");
 // const modal14 = document.querySelector("#modal14");
 // const close14 = document.querySelectorAll(".close-modal14");
 // const innerModal14 = document.querySelector("#inner-modal14");
 
-// open14.addEventListener("click", () => {
-//   modal14.showModal();
+// open14.forEach((element) => {
+//   element.addEventListener("click", () => {
+//     modal14.showModal();
+//   });
 // });
 // modal14.addEventListener('click', (event) => {
 //   if (!innerModal14.contains(event.target)) {
@@ -317,13 +347,15 @@ close12.forEach((element) => {
 // // end modal js section
 
 // start modal js section
-const open15 = document.querySelector("#open-modal15");
+const open15 = document.querySelectorAll(".open-modal15");
 const modal15 = document.querySelector("#modal15");
 const close15 = document.querySelectorAll(".close-modal15");
 const innerModal15 = document.querySelector("#inner-modal15");
 
-open15.addEventListener("click", () => {
-  modal15.showModal();
+open15.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal15.showModal();
+  });
 });
 modal15.addEventListener('click', (event) => {
   if (!innerModal15.contains(event.target)) {
@@ -338,13 +370,15 @@ close15.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open16 = document.querySelector("#open-modal16");
+const open16 = document.querySelectorAll(".open-modal16");
 const modal16 = document.querySelector("#modal16");
 const close16 = document.querySelectorAll(".close-modal16");
 const innerModal16 = document.querySelector("#inner-modal16");
 
-open16.addEventListener("click", () => {
-  modal16.showModal();
+open16.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal16.showModal();
+  });
 });
 modal16.addEventListener('click', (event) => {
   if (!innerModal16.contains(event.target)) {
@@ -359,13 +393,15 @@ close16.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open17 = document.querySelector("#open-modal17");
+const open17 = document.querySelectorAll(".open-modal17");
 const modal17 = document.querySelector("#modal17");
 const close17 = document.querySelectorAll(".close-modal17");
 const innerModal17 = document.querySelector("#inner-modal17");
 
-open17.addEventListener("click", () => {
-  modal17.showModal();
+open17.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal17.showModal();
+  });
 });
 modal17.addEventListener('click', (event) => {
   if (!innerModal17.contains(event.target)) {
@@ -380,13 +416,15 @@ close17.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open18 = document.querySelector("#open-modal18");
+const open18 = document.querySelectorAll(".open-modal18");
 const modal18 = document.querySelector("#modal18");
 const close18 = document.querySelectorAll(".close-modal18");
 const innerModal18 = document.querySelector("#inner-modal18");
 
-open18.addEventListener("click", () => {
-  modal18.showModal();
+open18.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal18.showModal();
+  });
 });
 modal18.addEventListener('click', (event) => {
   if (!innerModal18.contains(event.target)) {
@@ -401,13 +439,15 @@ close18.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open19 = document.querySelector("#open-modal19");
+const open19 = document.querySelectorAll(".open-modal19");
 const modal19 = document.querySelector("#modal19");
 const close19 = document.querySelectorAll(".close-modal19");
 const innerModal19 = document.querySelector("#inner-modal19");
 
-open19.addEventListener("click", () => {
-  modal19.showModal();
+open19.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal19.showModal();
+  });
 });
 modal19.addEventListener('click', (event) => {
   if (!innerModal19.contains(event.target)) {
@@ -422,13 +462,15 @@ close19.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open20 = document.querySelector("#open-modal20");
+const open20 = document.querySelectorAll(".open-modal20");
 const modal20 = document.querySelector("#modal20");
 const close20 = document.querySelectorAll(".close-modal20");
 const innerModal20 = document.querySelector("#inner-modal20");
 
-open20.addEventListener("click", () => {
-  modal20.showModal();
+open20.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal20.showModal();
+  });
 });
 modal20.addEventListener('click', (event) => {
   if (!innerModal20.contains(event.target)) {
@@ -443,13 +485,15 @@ close20.forEach((element) => {
 // end modal js section
 
 // start modal js section
-const open21 = document.querySelector("#open-modal21");
+const open21 = document.querySelectorAll(".open-modal21");
 const modal21 = document.querySelector("#modal21");
 const close21 = document.querySelectorAll(".close-modal21");
 const innerModal21 = document.querySelector("#inner-modal21");
 
-open21.addEventListener("click", () => {
-  modal21.showModal();
+open21.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal21.showModal();
+  });
 });
 modal21.addEventListener('click', (event) => {
   if (!innerModal21.contains(event.target)) {

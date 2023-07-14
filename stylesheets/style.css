@@ -158,6 +158,9 @@ dialog .white-button:focus {
 /* END Index page styles */
 
 /* START Timeline page styles */
+.date-outer {
+  cursor: pointer;
+}
 
 .date {
   margin: 0;
