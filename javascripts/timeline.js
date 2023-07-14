@@ -14,7 +14,7 @@ open0.forEach((element) => {
 });
 modal0.addEventListener('click', (event) => {
   if (!innerModal0.contains(event.target)) {
-      modal0.close();
+    modal0.close();
   }
 });
 close0.forEach((element) => {
@@ -37,7 +37,7 @@ open1.forEach((element) => {
 });
 modal1.addEventListener('click', (event) => {
   if (!innerModal1.contains(event.target)) {
-      modal1.close();
+    modal1.close();
   }
 });
 close1.forEach((element) => {
@@ -60,7 +60,7 @@ open2.forEach((element) => {
 });
 modal2.addEventListener('click', (event) => {
   if (!innerModal2.contains(event.target)) {
-      modal2.close();
+    modal2.close();
   }
 });
 close2.forEach((element) => {
@@ -83,7 +83,7 @@ open3.forEach((element) => {
 });
 modal3.addEventListener('click', (event) => {
   if (!innerModal3.contains(event.target)) {
-      modal3.close();
+    modal3.close();
   }
 });
 close3.forEach((element) => {
@@ -106,7 +106,7 @@ open4.forEach((element) => {
 });
 modal4.addEventListener('click', (event) => {
   if (!innerModal4.contains(event.target)) {
-      modal4.close();
+    modal4.close();
   }
 });
 close4.forEach((element) => {
@@ -129,7 +129,7 @@ open5.forEach((element) => {
 });
 modal5.addEventListener('click', (event) => {
   if (!innerModal5.contains(event.target)) {
-      modal5.close();
+    modal5.close();
   }
 });
 close5.forEach((element) => {
@@ -152,7 +152,7 @@ open6.forEach((element) => {
 });
 modal6.addEventListener('click', (event) => {
   if (!innerModal6.contains(event.target)) {
-      modal6.close();
+    modal6.close();
   }
 });
 close6.forEach((element) => {
@@ -175,7 +175,7 @@ open7.forEach((element) => {
 });
 modal7.addEventListener('click', (event) => {
   if (!innerModal7.contains(event.target)) {
-      modal7.close();
+    modal7.close();
   }
 });
 close7.forEach((element) => {
@@ -198,7 +198,7 @@ open8.forEach((element) => {
 });
 modal8.addEventListener('click', (event) => {
   if (!innerModal8.contains(event.target)) {
-      modal8.close();
+    modal8.close();
   }
 });
 close8.forEach((element) => {
@@ -213,6 +213,7 @@ const open9 = document.querySelectorAll(".open-modal9");
 const modal9 = document.querySelector("#modal9");
 const close9 = document.querySelectorAll(".close-modal9");
 const innerModal9 = document.querySelector("#inner-modal9");
+const modal9Audio = document.querySelector('#modal9-audio')
 
 open9.forEach((element) => {
   element.addEventListener("click", () => {
@@ -221,11 +222,13 @@ open9.forEach((element) => {
 });
 modal9.addEventListener('click', (event) => {
   if (!innerModal9.contains(event.target)) {
-      modal9.close();
+    modal9Audio.pause();
+    modal9.close();
   }
 });
 close9.forEach((element) => {
   element.addEventListener("click", () => {
+    modal9Audio.pause();
     modal9.close();
   });
 });
@@ -244,7 +247,7 @@ open10.forEach((element) => {
 });
 modal10.addEventListener('click', (event) => {
   if (!innerModal10.contains(event.target)) {
-      modal10.close();
+    modal10.close();
   }
 });
 close10.forEach((element) => {
@@ -267,7 +270,7 @@ open11.forEach((element) => {
 });
 modal11.addEventListener('click', (event) => {
   if (!innerModal11.contains(event.target)) {
-      modal11.close();
+    modal11.close();
   }
 });
 close11.forEach((element) => {
@@ -282,6 +285,7 @@ const open12 = document.querySelectorAll(".open-modal12");
 const modal12 = document.querySelector("#modal12");
 const close12 = document.querySelectorAll(".close-modal12");
 const innerModal12 = document.querySelector("#inner-modal12");
+const modal12Audio = document.querySelector('#modal12-audio')
 
 open12.forEach((element) => {
   element.addEventListener("click", () => {
@@ -290,11 +294,13 @@ open12.forEach((element) => {
 });
 modal12.addEventListener('click', (event) => {
   if (!innerModal12.contains(event.target)) {
-      modal12.close();
+    modal12Audio.pause();
+    modal12.close();
   }
 });
 close12.forEach((element) => {
   element.addEventListener("click", () => {
+    modal12Audio.pause();
     modal12.close();
   });
 });
@@ -313,7 +319,7 @@ close12.forEach((element) => {
 // });
 // modal13.addEventListener('click', (event) => {
 //   if (!innerModal13.contains(event.target)) {
-//       modal13.close();
+//     modal13.close();
 //   }
 // });
 // close13.forEach((element) => {
@@ -323,28 +329,28 @@ close12.forEach((element) => {
 // });
 // // end modal js section
 
-// // start modal js section
-// const open14 = document.querySelectorAll(".open-modal14");
-// const modal14 = document.querySelector("#modal14");
-// const close14 = document.querySelectorAll(".close-modal14");
-// const innerModal14 = document.querySelector("#inner-modal14");
+// start modal js section
+const open14 = document.querySelectorAll(".open-modal14");
+const modal14 = document.querySelector("#modal14");
+const close14 = document.querySelectorAll(".close-modal14");
+const innerModal14 = document.querySelector("#inner-modal14");
 
-// open14.forEach((element) => {
-//   element.addEventListener("click", () => {
-//     modal14.showModal();
-//   });
-// });
-// modal14.addEventListener('click', (event) => {
-//   if (!innerModal14.contains(event.target)) {
-//       modal14.close();
-//   }
-// });
-// close14.forEach((element) => {
-//   element.addEventListener("click", () => {
-//     modal14.close();
-//   });
-// });
-// // end modal js section
+open14.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal14.showModal();
+  });
+});
+modal14.addEventListener('click', (event) => {
+  if (!innerModal14.contains(event.target)) {
+    modal14.close();
+  }
+});
+close14.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal14.close();
+  });
+});
+// end modal js section
 
 // start modal js section
 const open15 = document.querySelectorAll(".open-modal15");
@@ -359,7 +365,7 @@ open15.forEach((element) => {
 });
 modal15.addEventListener('click', (event) => {
   if (!innerModal15.contains(event.target)) {
-      modal15.close();
+    modal15.close();
   }
 });
 close15.forEach((element) => {
@@ -382,7 +388,7 @@ open16.forEach((element) => {
 });
 modal16.addEventListener('click', (event) => {
   if (!innerModal16.contains(event.target)) {
-      modal16.close();
+    modal16.close();
   }
 });
 close16.forEach((element) => {
@@ -405,7 +411,7 @@ open17.forEach((element) => {
 });
 modal17.addEventListener('click', (event) => {
   if (!innerModal17.contains(event.target)) {
-      modal17.close();
+    modal17.close();
   }
 });
 close17.forEach((element) => {
@@ -428,7 +434,7 @@ open18.forEach((element) => {
 });
 modal18.addEventListener('click', (event) => {
   if (!innerModal18.contains(event.target)) {
-      modal18.close();
+    modal18.close();
   }
 });
 close18.forEach((element) => {
@@ -451,7 +457,7 @@ open19.forEach((element) => {
 });
 modal19.addEventListener('click', (event) => {
   if (!innerModal19.contains(event.target)) {
-      modal19.close();
+    modal19.close();
   }
 });
 close19.forEach((element) => {
@@ -474,7 +480,7 @@ open20.forEach((element) => {
 });
 modal20.addEventListener('click', (event) => {
   if (!innerModal20.contains(event.target)) {
-      modal20.close();
+    modal20.close();
   }
 });
 close20.forEach((element) => {
@@ -497,7 +503,7 @@ open21.forEach((element) => {
 });
 modal21.addEventListener('click', (event) => {
   if (!innerModal21.contains(event.target)) {
-      modal21.close();
+    modal21.close();
   }
 });
 close21.forEach((element) => {
