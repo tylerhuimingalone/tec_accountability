@@ -288,6 +288,22 @@ audio {
 /* END Timeline page styles */
 
 /* START Open Letter page styles */
+.eklan-signature {
+  width: 40%;
+  margin-top: -80px;
+  margin-bottom: -300px;
+}
+
+.roja-signature {
+  width: 40%;
+  margin-top: -220px;
+  margin-bottom: -220px;
+}
+
+.nivedhan-signature {
+  width: 40%;
+}
+
 .button.tab-button {
   border: 2px solid var(--primary-color);
   border-radius: 5px 5px 0 0;
@@ -635,11 +651,6 @@ body{
 }
 
 @media only screen and (max-width: 767px) {
-  .signature {
-    width: 100%;
-    height: auto;
-  }
-
   .mobile-only {
     display: unset;
   }
