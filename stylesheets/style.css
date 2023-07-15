@@ -86,6 +86,13 @@ a:hover {
   color: var(--primary-color);
   border-radius: 5px;
   border: 1px solid var(--primary-color);
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.white-button:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .white-button:focus {
@@ -288,6 +295,10 @@ audio {
 /* END Timeline page styles */
 
 /* START Open Letter page styles */
+.float-right.pdf-link {
+  margin-top: -5px;
+}
+
 .eklan-signature {
   width: 40%;
   margin-top: -80px;
