@@ -118,6 +118,12 @@ dialog .white-button {
 dialog .white-button:focus {
   outline: none;
 }
+
+.outside-link img {
+  display: inline;
+  height: 24px;
+  width: 24px;
+}
 /* END Sitewide styles */
 
 /* START Index page styles */
