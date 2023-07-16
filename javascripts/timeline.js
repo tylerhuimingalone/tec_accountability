@@ -1,4 +1,15 @@
 // JS goes here
+
+const timelines = document.querySelectorAll(".timeline");
+
+timelines.forEach((timeline) => {
+  var dateContent = timeline.querySelector(".date-content");
+  var timelineContent = timeline.querySelector(".timeline-content")
+  var timelineHeight = timelineContent.getBoundingClientRect().height
+  var dateMarginTop = (timelineHeight - 125) / 2
+  dateContent.style.marginTop = `${dateMarginTop}px`
+});
+
 // START modal js controls
 
 // start modal js section
