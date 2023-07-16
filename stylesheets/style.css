@@ -640,6 +640,10 @@ body{
     display: unset;
   }
 
+  .join-us-table {
+    display: none;
+  }
+
   .mobile-only dialog {
     width: 95%;
     margin: auto;
