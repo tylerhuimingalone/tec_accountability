@@ -50,38 +50,89 @@
     <!-- Body -->
     <div class="container mt-5 mb-5 join-us">
       <h2 class="mb-5">Join Us</h2>
-      <p>
+      <p class="link-block mb-3">
         If you or a loved one is currently experiencing domestic violence, you can contact the
-        <strong>National Domestic Violence Hotline</strong>: <a href="https://ncadv.org/get-help">https://ncadv.org/get-help</a>
+        <strong>National Domestic Violence Hotline</strong> here:
+        <a href="https://ncadv.org/get-help" target="_blank" class="d-inline ml-1">
+          https://ncadv.org/get-help<img src="images/link-outside.svg" alt="link-outside">
+        </a>
+      </p>
+      <p class="link-block mt-3 mb-3">
+        If you have also experienced abuse by a priest or other religious leader, you can contact the
+        <strong>Survivors Network of those Abused by Priests</strong> here:
+        <a href="https://www.snapnetwork.org/" target="_blank" class="d-inline ml-1">
+          https://www.snapnetwork.org/<img src="images/link-outside.svg" alt="link-outside">
+        </a>
       </p>
       <hr/>
       <p><strong>
-        If you are an Episcopalian who stands with us, we humbly ask you to stop financially donating to The Episcopal Church,
-        an organization who would rather silence abuse survivors than own their evident, public mistakes. If you are asked why,
-        we hope you will share our story. If you have something you would like to share with TEC leadership, relevant contact
-        information can be found below:
+        If you are an Episcopalian who stands with us, we humbly ask you to stop financially
+        donating to The Episcopal Church, an organization who would rather silence abuse survivors
+        than own their evident, public mistakes. If you are asked why, we hope you will share our story.
+        If you have something you would like to share with TEC leadership, relevant contact information
+        and email templates can be found below:
       </strong></p>
-      <hr/>
-      <p>
-        If you are an Episcopal Church bishop, clergy, or staff who would like to be named as Official Complainants in the
-        Title IV investigation please email current Intake Officer for Title IV, Barb Kempf:
-        <a href="mailto:bkempf@stpaulsindy.org">bkempf@stpaulsindy.org</a>
-      </p>
-      <hr/>
-      <p>
-        If you stand with us calling for the defrocking of Bishop Prince Singh, you can email him directly here:
-        <a href="mailto:rnepsingh@gmail.com">rnepsingh@gmail.com</a>
-      </p>
-      <p>
-        If you stand with us calling for the Title IV investigation against Presiding Bishop Michael Curry,
-        you can email him directly here:
-        <a href="mailto:michaelbruce@episcopalchurch.org">michaelbruce@episcopalchurch.org</a>
-      </p>
-      <p>
-        If you stand with us calling for the Title IV investigation against Bishop Todd Ousley,
-        you can email him directly here:
-        <a href="mailto:tousley@episcopalchurch.org">tousley@episcopalchurch.org</a>
-      </p>
+      <table class="join-us-table mb-5">
+        <tbody>
+          <tr class="border-bottom border-secondary">
+            <td>
+              If you are an Episcopal Church bishop, clergy, or staff who would like to be named as Official Complainants in the
+              Title IV investigation please email current Intake Officer for Title IV, Barb Kempf:
+            </td>
+            <td><a href="mailto:bkempf@stpaulsindy.org">bkempf@stpaulsindy.org</a></td>
+          </tr>
+          <tr class="border-bottom border-secondary">
+            <td>
+              If you stand with us calling for the defrocking of Bishop Prince Singh, you can email him directly here:
+            </td>
+            <td><a href="mailto:rnepsingh@gmail.com">rnepsingh@gmail.com</a></td>
+          </tr>
+          <tr class="border-bottom border-secondary">
+            <td>
+              If you stand with us calling for the Title IV investigation against Presiding Bishop Michael Curry,
+              you can email him directly here:
+            </td>
+            <td><a href="mailto:michaelbruce@episcopalchurch.org">michaelbruce@episcopalchurch.org</a></td>
+          </tr>
+          <tr class="border-bottom border-secondary">
+            <td>
+              If you stand with us calling for the Title IV investigation against Bishop Todd Ousley,
+              you can email him directly here:
+            </td>
+            <td><a href="mailto:tousley@episcopalchurch.org">tousley@episcopalchurch.org</a></td>
+          </tr>
+        </tbody>
+      </table>
+      <h5>Email template for Episcopalians:</h5>
+      <blockquote class="email-template">
+        <button id="episcopalian-email-copy" class="copy-email-template button modal-button" type="button">
+          Copy<img src="./images/copy.svg" alt="copy">
+        </button>
+        <p id="episcopalian-email" class="template">Dear _______,
+
+When survivors of domestic abuse disclose, there is an expectation of prompt action and due diligence on the part of the Office of the Presiding Bishop and the Office of Pastoral Development, as per the Title IV Canons of The Episcopal Church. To wait 6 months for survivors to go public on social media before launching an official investigation proves that TEC is more concerned with their public image, than with adhering to the teachings of Christ. 
+
+I have been a member of _____ parish for ___ years. I typically give approximately $ ____ per year to institutions associated with The Episcopal Church. I stand with #EpiscopalSurvivors and, for this reason, I will no longer be supporting TEC financially until Bishop Prince Singh is defrocked. I would also like to formally launch a Title IV investigation into Presiding Bishop Michael Curry, and Bishop Todd Ousley for their calculated mishandling of Roja, Nivedhan, and Eklan Singh’s disclosure of Bishop Prince Singh’s history of domestic violence and alcoholism. A legitimate investigation at this level of Nation TEC Staff should be overseen by a 3rd party investigatory body. 
+
+Sincerely,
+
+________</p>
+      </blockquote>
+      <h5>Email template for allies:</h5>
+      <blockquote class="email-template">
+        <button id="ally-email-copy" class="copy-email-template button modal-button" type="button">
+          Copy<img src="./images/copy.svg" alt="copy">
+        </button>
+        <p id="ally-email" class="template">Dear _______,
+
+When survivors of domestic abuse disclose, there is an expectation of prompt action and due diligence on the part of the Office of the Presiding Bishop and the Office of Pastoral Development, as per the Title IV Canons of The Episcopal Church. To wait 6 months for survivors to go public on social media before launching an official investigation proves that TEC is more concerned with their public image, than with adhering to its supposed doctrine of morality. 
+
+I stand with #EpiscopalSurvivors and, for this reason, I will continue to share the story of this gross abuse of power in my professional and personal circles until Bishop Prince Singh is defrocked. I would also like to formally launch a Title IV investigation into Presiding Bishop Michael Curry, and Bishop Todd Ousley for their calculated mishandling of Roja, Nivedhan, and Eklan Singh’s disclosure of Bishop Prince Singh’s history of domestic violence and alcoholism. 
+          
+Sincerely, 
+          
+_________</p>
+      </blockquote>
     </div>
 
     <footer class="pl-3 pt-2">
@@ -96,6 +147,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!-- <script src="javascripts/join_us.js"></script> -->
+    <script src="javascripts/join_us.js"></script>
   </body>
 </html>
