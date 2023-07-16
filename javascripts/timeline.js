@@ -559,4 +559,27 @@ close23.forEach((element) => {
 });
 // end modal js section
 
+// start modal js section
+const open24 = document.querySelectorAll(".open-modal24");
+const modal24 = document.querySelector("#modal24");
+const close24 = document.querySelectorAll(".close-modal24");
+const innerModal24 = document.querySelector("#inner-modal24");
+
+open24.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal24.showModal();
+  });
+});
+modal24.addEventListener('click', (event) => {
+  if (!innerModal24.contains(event.target)) {
+    modal24.close();
+  }
+});
+close24.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal24.close();
+  });
+});
+// end modal js section
+
 // END modal js controls
