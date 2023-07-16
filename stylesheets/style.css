@@ -604,6 +604,23 @@ body{
 }
 
 @media only screen and (max-width: 991px) {
+
+  .main-timeline .tall-timeline .timeline-content {
+    height: 365px;
+  }
+
+  .main-timeline .tall-timeline .date-content {
+    margin-top: 120px;
+  }
+
+  .main-timeline .timeline-content {
+    height: 285px;
+  }
+
+  .main-timeline .date-content {
+    margin-top: 80px;
+  }
+
   .eklan-signature {
     margin-bottom: -200px;
   }
