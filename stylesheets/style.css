@@ -325,7 +325,8 @@ audio {
 
 /* START FAQ page styles */
 .accordion-section,
-.join-us {
+.join-us,
+.media-coverage {
   min-height: calc(100vh - 300px);
 }
 
@@ -401,6 +402,70 @@ audio {
   white-space: pre-wrap;
 }
 /* END Join Us Styles */
+
+/* START Media Styles */
+.link-container {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.article-block {
+  width: 540px;
+  max-width: 100%;
+  font-size: 20px;
+  margin:50px auto;
+  font-family: Arial;
+  font-style: italic;
+  color: white;
+  line-height: 1.6;
+  position: relative;
+  padding: 1.2em;
+  background: #555555;
+  border-left: 8px solid var(--secondary-color);
+  border-radius: 10% 0 0 0;
+}
+
+.text-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-container hr {
+  border-color: white;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.article-block .text-container small.no-style {
+  font-style: unset;
+}
+
+.article-button {
+  border: none;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 5px 10px;
+  align-self: end;
+}
+
+.article-button:hover {
+  filter: brightness(70%);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.article-button:focus {
+  outline: 1px solid var(--secondary-color);
+}
+
+/* END Media Styles */
 
 body{
   background-color: var(--background-white);
@@ -595,6 +660,10 @@ body{
 }
 
 @media only screen and (max-width: 991px) {
+  .article-block {
+    width: 100%;
+  }
+
   .eklan-signature {
     margin-bottom: -200px;
   }
