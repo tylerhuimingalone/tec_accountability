@@ -593,4 +593,27 @@ close24.forEach((element) => {
 });
 // end modal js section
 
+// start modal js section
+const open25 = document.querySelectorAll(".open-modal25");
+const modal25 = document.querySelector("#modal25");
+const close25 = document.querySelectorAll(".close-modal25");
+const innerModal25 = document.querySelector("#inner-modal25");
+
+open25.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal25.showModal();
+  });
+});
+modal25.addEventListener('click', (event) => {
+  if (!innerModal25.contains(event.target)) {
+    modal25.close();
+  }
+});
+close25.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal25.close();
+  });
+});
+// end modal js section
+
 // END modal js controls
