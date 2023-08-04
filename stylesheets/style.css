@@ -326,8 +326,9 @@ audio {
 /* START FAQ page styles */
 .accordion-section,
 .join-us,
-.media-coverage {
-  min-height: calc(100vh - 300px);
+.media-coverage,
+.recorded-calls {
+  min-height: calc(100vh - 433px);
 }
 
 .accordion-section h2 {
@@ -466,6 +467,12 @@ audio {
 }
 
 /* END Media Styles */
+
+/* START Recorded Calls Styles */
+.transcript-link {
+  margin-top: -4px;
+}
+/* END Recorded Calls Styles */
 
 body{
   background-color: var(--background-white);
