@@ -616,4 +616,27 @@ close25.forEach((element) => {
 });
 // end modal js section
 
+// start modal js section
+const open26 = document.querySelectorAll(".open-modal26");
+const modal26 = document.querySelector("#modal26");
+const close26 = document.querySelectorAll(".close-modal26");
+const innerModal26 = document.querySelector("#inner-modal26");
+
+open26.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal26.showModal();
+  });
+});
+modal26.addEventListener('click', (event) => {
+  if (!innerModal26.contains(event.target)) {
+    modal26.close();
+  }
+});
+close26.forEach((element) => {
+  element.addEventListener("click", () => {
+    modal26.close();
+  });
+});
+// end modal js section
+
 // END modal js controls

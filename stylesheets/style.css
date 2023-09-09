@@ -127,7 +127,7 @@ dialog .white-button:focus {
 /* END Sitewide styles */
 
 /* START Index page styles */
-.video_with_text {
+.video_with_text{
   background-color: var(--primary-color);
   height: 396px;
 }
@@ -136,6 +136,16 @@ dialog .white-button:focus {
   display: inline-block;
   width: 60%;
   padding: 15px 0 15px 15px;
+}
+
+.video_no_text {
+  background-color: var(--primary-color);
+}
+
+.video_no_text .video {
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
 }
 
 .video_with_text.video-right .video {
@@ -150,6 +160,13 @@ dialog .white-button:focus {
   height: 396px;
   float: right;
   color: var(--white);
+}
+
+.video_no_text .video-caption {
+  padding: 0 15px 15px 15px;
+  color: var(--white);
+  font-weight: bold;
+  text-align: center;
 }
 
 .video_with_text.video-right .video-description {
