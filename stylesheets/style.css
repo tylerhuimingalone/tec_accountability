@@ -40,6 +40,10 @@ footer a {
   color: var(--primary-color);
 }
 
+.secondary-color-text {
+  color: var(--secondary-color);
+}
+
 nav.navbar {
   position: sticky;
   top: 0px;
@@ -307,9 +311,18 @@ margin-top:1em;
   border-bottom: 1px solid white;
 }
 
+.link-block span.inline {
+  display: inline;
+  border-bottom: none;
+}
+
 .link-block a {
   display: block;
   margin-left: 50px;
+}
+
+.link-block ol {
+  color: var(--secondary-color);
 }
 
 audio {
