@@ -12,7 +12,7 @@ timelines.forEach((timeline) => {
 
 // modal js controls
 
-const timelineModalNum = 31
+const timelineModalNum = 41
 
 for(var i = 0; i <= timelineModalNum; i++) {
   const open = document.querySelectorAll(`.open-modal${i}`);
